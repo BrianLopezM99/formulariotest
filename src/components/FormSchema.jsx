@@ -4,15 +4,15 @@ import { string } from "yup";
 const FormSchema = Yup.object().shape({
   nombre: Yup.string().matches(/^[aA-zZ\s]+$/, "Solo se permiten letras y espacios en este campo")
     .min(2, "Muy corto")
-    .max(10, "Muy largo")
+    .max(30, "Muy largo")
     .required("El nombre es obligatorio"),
   paterno: Yup.string().matches(/^[aA-zZ\s]+$/, "Solo se permiten letras y espacios en este campo")
     .min(2, "Muy corto")
-    .max(10, "Muy largo")
+    .max(30, "Muy largo")
     .required("El apellido Paterno es obligatorio"),
   materno: Yup.string().matches(/^[aA-zZ\s]+$/, "Solo se permiten letras y espacios en este campo")
     .min(2, "Muy corto")
-    .max(10, "Muy largo")
+    .max(30, "Muy largo")
     .required("El apellido Materno es obligatorio"),
     genero: Yup.string().required('El campo es obligatorio'),
   telefono: Yup.string().matches(/^([0-9])*$/, "Solo se permiten numeros en este campo")
@@ -25,15 +25,15 @@ const FormSchema = Yup.object().shape({
     .required("Por favor ingrese una direccion"),
   codigopostal: Yup.string().matches(/^([0-9])*$/, "Solo se permiten numeros en este campo")
     .min(2, "Muy corto")
-    .max(99999, "Muy largo")
+    .max(8, "Muy largo")
     .required("Por favor ingrese su codigo postal"),
   estado: Yup.string().matches(/^[aA-zZ\s]+$/, "Solo se permiten letras y espacios en este campo")
     .min(2, "Muy corto")
-    .max(10, "Muy largo")
+    .max(60, "Muy largo")
     .required("El estado es obligatorio"),
   ciudad: Yup.string().matches(/^[aA-zZ\s]+$/, "Solo se permiten letras y espacios en este campo")
     .min(2, "Muy corto")
-    .max(10, "Muy largo")
+    .max(60, "Muy largo")
     .required("La ciudad es obligatoria"),
   correo: Yup.string()
     .email("Email Invalido")

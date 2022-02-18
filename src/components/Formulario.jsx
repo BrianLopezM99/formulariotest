@@ -43,7 +43,7 @@ const Formulario = () => {
         // }}
         validationSchema={FormSchema}
         onSubmit={async (valores, { resetForm }) => {
-          let response = await fetch("http://localhost:4000/datos", {
+          let response = await fetch("https://my-json-server.typicode.com/BrianLopezM99/jsonserverFAKE/datos", {
             method: "POST",
             headers: {
               "Content-Type": "application/json;charset=utf-8",
@@ -61,7 +61,7 @@ const Formulario = () => {
             setFormularioEnviado(false);
           }, 3000);
           Swal.fire({
-            position: 'top-end',
+            position: 'center',
             icon: 'success',
             title: 'El formulario ha sido guardado exitosamente',
             showConfirmButton: false,
