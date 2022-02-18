@@ -1,0 +1,43 @@
+{
+  "datos": [
+    {
+      "id": 1,
+      "direccion": "esta mera xd"
+    },
+    {
+      "id": 2,
+      "direccion": "sisoi"
+    },
+    {
+      "nombre": "Brian",
+      "correo": "jsjsjsq@gmail.com",
+      "materno": "Medina",
+      "telefono": "6181605889",
+      "direccion": "Revolución 407",
+      "codigopostal": "34000",
+      "estado": "Durango",
+      "ciudad": "Durango",
+      "paterno": "Lopez",
+      "ine": "Ine",
+      "comprobantedomi": "comprobante",
+      "talondenomina": "aquidebeirlanomina",
+      "id": 3
+    },
+    {
+      "nombre": "Brian",
+      "paterno": "Lopez",
+      "materno": "Medina",
+      "genero": "hombre",
+      "correo": "jsjsjsq@gmail.com",
+      "telefono": "6181605889",
+      "direccion": "Revolució",
+      "codigopostal": "34000",
+      "estado": "Durango",
+      "ciudad": "Durango",
+      "ine": "",
+      "comprobantedomi": "",
+      "talondenomina": "",
+      "id": 4
+    }
+  ]
+}
