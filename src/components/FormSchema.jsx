@@ -18,15 +18,15 @@ const FormSchema = Yup.object().shape({
   telefono: Yup.string().matches(/^([0-9])*$/, "Solo se permiten numeros en este campo")
     .min(2, "Muy corto")
     .max(9999999999, "Muy largo")
-    .required("El numero telefonico es obligatorio"),
+    .required("El numero telefónico es obligatorio"),
   direccion: Yup.string()
     .min(2, "Muy corto")
     .max(50, "Muy largo")
-    .required("Por favor ingrese una direccion"),
+    .required("Por favor ingrese una dirección"),
   codigopostal: Yup.string().matches(/^([0-9])*$/, "Solo se permiten numeros en este campo")
     .min(2, "Muy corto")
     .max(8, "Muy largo")
-    .required("Por favor ingrese su codigo postal"),
+    .required("Por favor ingrese su código postal"),
   estado: Yup.string().matches(/^[aA-zZ\s]+$/, "Solo se permiten letras y espacios en este campo")
     .min(2, "Muy corto")
     .max(60, "Muy largo")

@@ -92,7 +92,7 @@ const Formulario = () => {
                   type="text"
                   id="nombre"
                   name="nombre"
-                  placeholder="Nombre"
+                  placeholder="Ex: Pablo"
                   className="rounded-md border-2 w-full p-2 mt-2 placeholder-gray-400"
                 />
                 <ErrorMessage
@@ -115,7 +115,7 @@ const Formulario = () => {
                   type="text"
                   id="paterno"
                   name="paterno"
-                  placeholder="paterno"
+                  placeholder="Ex: Urbina"
                   className="rounded-md border-2 w-full p-2 mt-2 placeholder-gray-400"
                 />
                 <ErrorMessage
@@ -138,7 +138,7 @@ const Formulario = () => {
                   type="text"
                   id="materno"
                   name="materno"
-                  placeholder="materno"
+                  placeholder="Ex: Marquez"
                   className="rounded-md border-2 w-full p-2 mt-2 placeholder-gray-400"
                 />
                 <ErrorMessage
@@ -208,13 +208,13 @@ const Formulario = () => {
                   htmlFor="telefono"
                   className="block text-gray-700 uppercase font-bold"
                 >
-                  <FontAwesomeIcon icon={faPhone} /> Telefono
+                  <FontAwesomeIcon icon={faPhone} /> Télefono
                 </label>
                 <Field
                   type="text"
                   id="telefono"
                   name="telefono"
-                  placeholder="Telefono"
+                  placeholder="Teléfono movil o fijo"
                   className="rounded-md border-2 w-full p-2 mt-2 placeholder-gray-400"
                 />
                 <ErrorMessage
@@ -232,7 +232,7 @@ const Formulario = () => {
                   className="block text-gray-700 uppercase font-bold"
                 >
                   {" "}
-                  <FontAwesomeIcon icon={faLocationDot} /> Direccion
+                  <FontAwesomeIcon icon={faLocationDot} /> Dirección
                 </label>
                 <Field
                   type="text"
@@ -255,7 +255,7 @@ const Formulario = () => {
                   htmlFor="codigopostal"
                   className="block text-gray-700 uppercase font-bold"
                 >
-                  <FontAwesomeIcon icon={faPen} /> Codigo Postal
+                  <FontAwesomeIcon icon={faPen} /> Código Postal
                 </label>
                 <Field
                   type="text"
@@ -375,7 +375,7 @@ const Formulario = () => {
                   htmlFor="talondenomina"
                   className="block text-gray-700 uppercase font-bold"
                 >
-                  <FontAwesomeIcon icon={faUpload} /> Talon de Nomina 
+                  <FontAwesomeIcon icon={faUpload} /> Talon de Nómina 
                 </label>
                 <Field
                   type="file"
