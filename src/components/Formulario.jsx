@@ -155,7 +155,7 @@ const Formulario = () => {
                   htmlFor="materno"
                   className="block text-gray-700 uppercase font-bold"
                 >
-                  <FontAwesomeIcon icon={faVenusMars} /> Genero
+                  <FontAwesomeIcon icon={faVenusMars} /> Género
                 </label>
                 <Field
                   as="select"
