@@ -214,7 +214,7 @@ const Formulario = () => {
                   type="text"
                   id="telefono"
                   name="telefono"
-                  placeholder="Teléfono movil o fijo"
+                  placeholder="Teléfono móvil o fijo"
                   className="rounded-md border-2 w-full p-2 mt-2 placeholder-gray-400"
                 />
                 <ErrorMessage
@@ -261,7 +261,7 @@ const Formulario = () => {
                   type="text"
                   id="codigopostal"
                   name="codigopostal"
-                  placeholder="Codigo Postal"
+                  placeholder="Código Postal"
                   className="rounded-md border-2 w-full p-2 mt-2 placeholder-gray-400"
                 />
                 <ErrorMessage
