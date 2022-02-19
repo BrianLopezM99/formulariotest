@@ -238,7 +238,7 @@ const Formulario = () => {
                   type="text"
                   id="direccion"
                   name="direccion"
-                  placeholder="Direccion"
+                  placeholder="Dirección"
                   className="rounded-md border-2 w-full p-2 mt-2 placeholder-gray-400"
                 />
                 <ErrorMessage
